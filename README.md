@@ -42,8 +42,12 @@ Session capture works where the agent loads these repository instructions. Other
 ## Quick Start
 
 1. On GitHub, choose [**Use this template → Create a new repository**](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template), then clone your new repository. Alternatively, unzip the blueprint and initialize it with `git init`, `git add .`, and `git commit -m "chore: init llm-wiki"`.
-2. Put 1–3 notes or sources into `inbox/`. For `inbox/YYYY-MM-DD-topic.md`, put attachments in `assets/YYYY-MM-DD-topic/` and link them as `../assets/YYYY-MM-DD-topic/image.png`.
-3. Open your preferred agent harness in the repository root and prompt:
+2. **Optional setup.** Open your agent in the repository root and adapt this prompt to your use case.
+
+   > Read WIKI.md first. I'm setting up a [personal wiki / private work wiki / shared team wiki] for [purpose and audience]. I'd like it to cover topics such as [examples]. Tailor WIKI.md and the agent instruction files to this use case.
+
+3. Put 1–3 notes or sources into `inbox/`. For `inbox/YYYY-MM-DD-topic.md`, put attachments in `assets/YYYY-MM-DD-topic/` and link them as `../assets/YYYY-MM-DD-topic/image.png`.
+4. Open your preferred agent harness in the repository root and prompt:
 
    > Read WIKI.md, then ingest the files in inbox/ into wiki/, archive the original sources in raw/, and summarize the concepts you created or updated.
 
