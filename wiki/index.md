@@ -8,4 +8,4 @@ _No subdirectories created yet. Subdirectories with their own index.md are creat
 
 ## Root Concepts
 
-_No concepts ingested yet. Drop sources into ../raw/ or ../inbox/ and instruct your agent to run an ingest pass._
+_No concepts ingested yet. Drop new sources into [inbox/](../inbox/) and request an ingest pass._
