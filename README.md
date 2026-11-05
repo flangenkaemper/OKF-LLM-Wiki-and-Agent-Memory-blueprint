@@ -29,6 +29,7 @@ flowchart LR
     Ingest --> Wiki["wiki/: knowledge"]
     Ingest --> Raw["raw/: archive"]
     Wiki -->|Read context| Session
+    Reviewer["Human"] --> |Review and verify concept| Wiki
 ```
 
 Ingest creates or updates wiki concepts from the notes in `inbox/` and moves the source files unchanged into `raw/`. Notes and concepts use relative links to the same attachments in `assets/`. Wiki concepts link to the archived notes through `sources`.
