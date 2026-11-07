@@ -7,6 +7,8 @@ This repository is a ready-to-use **Blueprint** combining:
 
 Use it as a knowledge base and shared memory for human and AI agent sessions: agents read relevant context and capture durable decisions for later ingestion.
 
+For an introduction to OKF and its connection to Karpathy's LLM Wiki, I recommend [this video by AI LABS](https://www.youtube.com/watch?v=k4sMSsMzX2g).
+
 ## Folders & Workflow
 
 | Path | Purpose |
